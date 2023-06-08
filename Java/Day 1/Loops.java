@@ -48,19 +48,61 @@ public class Loops{
     //     n /=10;
     // }
 
-    //reverse the given number
-    int n = 10899;
-    int ld;
-    
-for (int i = 0 ; i <5;i++){
+//     //reverse the given number and store in variable
+//     int n = 10899;
+//     int ld;
+//     int rev =0;
+// for (int i = 0 ; i <5;i++){
 
-    ld = n % 10;
-    n = n/10;
-    int rev =0;
-     rev = (rev *10) + ld;
-System.out.println(rev);
+//     ld = n % 10;
+//     n = n/10;
+//      rev = (rev *10) + ld;
+
+// }
+// System.out.println(rev);
+
+
+// Do while loop
+// int i = 1;
+// do{
+//     System.out.println("Hello world!" + i);
+//     i++;
+
+// } while (i<10);
+
+// // keep entering numbers till user enters a multiple of 10
+// int input = 1;
+// while(input % 10 !=0){
+//     input = sc.nextInt();
+//     System.out.println(input);
+// }
+
+// //Continue statement
+// for(int i = 0; i<=5; i++){
+//     if (i ==3){
+//         continue;
+//     }
+//     System.out.println(i);
+// }
+
+// // Display al numbers entered by user except multiples of 10
+
+// while(true){
+//     int in = sc.nextInt();
+//     if(in % 10 == 0){
+//         continue;
+//     }
+//     System.out.println(in);
+
+
+// }
+
+
+//check whether a number is prime or not
+while(true){
+    int input = sc.nextInt();
+    if (input )
 }
 
-System.out.println(rev);
     }
 }
