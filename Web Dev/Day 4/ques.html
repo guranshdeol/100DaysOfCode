@@ -1,25 +1,112 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
+  </head>
+  <body>
     <!DOCTYPE html>
     <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Ques</title>
-    </head>
-    <body>
+      </head>
+      <body>
+        <h1>Practice Ques</h1>
+        <!-- Google Search text box -->
         <form action="https://www.google.com/search">
-            <label for="gsearch">Google Search</label>
-            <input type="text" id="gsearch" placeholder="Google" name="q">
-            <button>Search</button>
+          <label for="gsearch">Google Search</label>
+          <input type="text" id="gsearch" placeholder="Google" name="q" />
+          <button>Search</button>
         </form>
-    </body>
+        <!-- Recreate Registration Form as shown in the picture -->
+        <h2>Registraion Form</h2>
+        <form action="/registration">
+          <input type="text" placeholder="First Name" name="fname" />
+          <input type="text" placeholder="Last Name" name="lname" />
+          <div>
+            <label for="gender">Please Select Gender</label>
+            <select name="gender" id="gender">
+              <option>--Select --Gender--</option>
+              <option value="male" selected>Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+          <label for="chk">Do you agree to all the terms</label>
+          <input type="checkbox" name="agree" id="chk" />
+          <label for="chk">YEs, i agree</label>
+          <br />
+          <button>Register</button>
+        </form>
+        <!-- REcreateHtml Form -->
+        <hr />
+        <h3>Question 3</h3>
+        <form action="/server">
+          <div>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" />
+          </div>
+          <div>
+            Sex:
+            <input type="radio" name="m" id="gender" value="male" />
+            <label for="gender">Male</label>
+            <input type="radio" name="m" id="fgender" value="f" />
+            <label for="fgender">Female</label>
+          </div>
+          <div>
+            <label for="cntry">Country:</label>
+            <select name="country" id="cntry">
+              <option>Select an option</option>
+            </select>
+          </div>
+          <div>
+            <label for="message">Message:</label><br />
+            <textarea name="" id="" cols="30" rows="5"></textarea>
+          </div>
+          <div>
+            <input type="checkbox" name="subscribe" id="sub" />
+            <label for="sub">Subscribe?</label>
+          </div>
+          <button>Submit</button>
+        </form>
+
+        <!-- que 3 --> <hr>
+        <h3>Feedback Form</h3>
+        <div>
+            <label for="nm">Name:</label>
+            <input type="text" placeholder="Write your name" name="name" id="nm">
+        </div>
+        <div>
+            <label for="mail">Email:</label>
+            <input type="text" placeholder="Write your email" name="email" id="mail">
+        </div>
+        <div>
+            <label for="mes">Message:</label> <br>
+            <textarea name="message" id="mes" cols="30" rows="5"></textarea>
+        </div>
+        <div>
+            Rate us out of 5:
+            <br>
+            <input type="radio" name="star" id="1" value="1">
+            <label for="1">1</label>
+            <br>
+            <input type="radio" name="star" id="2" value="2">
+            <label for="2">2</label>
+            <br>
+            <input type="radio" name="star" id="3" value="3">
+            <label for="3">3</label>
+            <br>
+            <input type="radio" name="star" id="4" value="4">
+            <label for="4">4</label>
+            <br>
+            <input type="radio" name="star" id="5" value="5">
+            <label for="5">5</label>
+            <br>
+        </div>
+        <button>Submit your message!</button>
+      </body>
     </html>
-</body>
-</html> 
+  </body>
+</html>
