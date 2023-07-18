@@ -1,0 +1,23 @@
+h1{
+    color: violet;
+    background-color: grey;
+}
+
+p{
+    color: grey;
+    background-color: cornsilk;
+}
+
+button{
+    color: gold;
+    background-color: black;
+}
+
+h3{
+    color: rgb(10, 10, 145);
+}
+
+h2{
+    color: #ff0000;
+    background-color: #000000;
+}
