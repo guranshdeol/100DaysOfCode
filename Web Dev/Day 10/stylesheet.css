@@ -1,0 +1,23 @@
+ h1{
+    text-align: center;
+    text-decoration: blue underline dotted; 
+    
+    
+}
+
+ h2{
+    font-weight: 800;
+    text-decoration: line-through;
+ }
+ p{
+    font-weight: light;
+    line-height: 1.5 ;
+    letter-spacing: 1.5px;
+    font-size: 15px;
+    font-family: avant garde,didot,sans-serif+;
+    
+ }
+
+a{
+    text-decoration: none;
+ }
