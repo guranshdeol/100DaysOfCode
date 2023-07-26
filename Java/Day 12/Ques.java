@@ -12,6 +12,7 @@ public class Ques{
                 if(x%400==0){
                     System.out.println("Leap Year");
                 }
+                
                 else {
                     System.out.println("NOt a Leap Year");
                 }
