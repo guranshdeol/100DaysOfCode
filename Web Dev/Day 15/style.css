@@ -1,0 +1,14 @@
+ /*Selectors in CSS  */
+ /* 1. Universal Selector */
+ /* *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: yellow;
+ } */
+
+ /* 2 Element Selector */
+ h3 {
+    color: red;
+ }
+ h1{
+    color: #b92b27;
+ }
