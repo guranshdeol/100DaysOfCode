@@ -68,3 +68,69 @@ p + h3{                      /*All h3 after p tags*/
 div >input{
     background-color: darksalmon;
 }
+
+/* Attribute selector */
+input[type="text"]{
+    color: blue;
+}
+
+input[type="password"]{
+    color: yellow;
+}
+
+input[type]{
+    background: ghostwhite;
+}
+
+div[id="myID"]{
+    color: blue;
+}
+
+
+button:hover{
+    color: white;
+    background-color: black;
+    
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: yellow;
+    color: black;
+}
+
+p:active{
+    font-weight: bolder;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+.post:nth-of-type(3){
+    background-color: lime;
+}
+
+/* Pseudo element */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: #6eff2b;
+}
+
+*::selection{
+    background-color: rgb(100, 77, 228);
+    color: black;
+}
