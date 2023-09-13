@@ -1,0 +1,70 @@
+/* Universal Selector */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element Selector */
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27;
+}
+/* h1,h2{              this is also valid
+    color: black;
+}
+*/
+
+/* ID selector */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+}
+
+/* Descendant Selector */
+/*
+p a{                          All anchor tags which are nested in paragraph tags
+    background-color: yellow;
+    color: purple;
+}*/
+
+.post a{                          /*All anchor tags which are nested in class post*/
+    background-color: yellow;
+    color: purple;
+}
+
+nav ul li a{                   
+                         /* we can even go for more than 2 levels */
+    color: hotpink;
+}
+
+nav a{
+                               /* This and the above are one and the same thing, we can skip multipl  */
+    color: hotpink;
+}
+
+/* Adjacent sibling combinator */
+p + h3{                      /*All h3 after p tags*/
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child combinator */
+
+div >input{
+    background-color: darksalmon;
+}
