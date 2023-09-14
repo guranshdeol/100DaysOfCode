@@ -1,0 +1,140 @@
+/* Universal Selector */
+*{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Element Selector */
+h3{
+    color: purple;
+}
+
+h1{
+    color: #b92b27;
+}
+/* h1,h2{              this is also valid
+    color: black;
+}
+*/
+
+/* ID selector */
+#login{
+    background-color: white;
+}
+
+#signup{
+    background-color: #b92b27;
+    color: white;
+}
+
+/* Class Selector */
+.upvote{
+    background-color: green;
+}
+
+/* Descendant Selector */
+/*
+p a{                          All anchor tags which are nested in paragraph tags
+    background-color: yellow;
+    color: purple;
+}*/
+
+.post a{                          /*All anchor tags which are nested in class post*/
+    background-color: yellow;
+    color: purple;
+}
+
+nav ul li a{                   
+                         /* we can even go for more than 2 levels */
+    color: hotpink;
+}
+
+nav a{
+                               /* This and the above are one and the same thing, we can skip multipl  */
+    color: hotpink;
+}
+
+/* Adjacent sibling combinator */
+p + h3{                      /*All h3 after p tags*/
+    text-decoration: underline;
+}
+
+.upvote + button{
+    background-color: cornflowerblue;
+    color: darkblue;
+}
+
+/* Child combinator */
+
+div >input{
+    background-color: darksalmon;
+}
+
+/* Attribute selector */
+input[type="text"]{
+    color: blue;
+}
+
+input[type="password"]{
+    color: yellow;
+}
+
+input[type]{
+    background: ghostwhite;
+}
+
+div[id="myID"]{
+    color: blue;
+}
+
+
+button:hover{
+    color: white;
+    background-color: black;
+    
+}
+
+h3:hover{
+    text-decoration: overline;
+}
+
+button:active{
+    background-color: yellow;
+    color: black;
+}
+
+p:active{
+    font-weight: bolder;
+    color: green;
+}
+
+input[type="radio"]:checked + label{
+    color: red;
+    font-weight: bolder;
+}
+
+.post:nth-of-type(3){
+    background-color: lime;
+}
+
+/* Pseudo element */
+
+h1::first-letter{
+    color: black;
+}
+
+p::first-line{
+    color: red;
+}
+
+p::selection{
+    background-color: #6eff2b;
+}
+
+*::selection{
+    background-color: rgb(100, 77, 228);
+    color: black;
+}
+
+h3{
+    background-color: blue;
+}
