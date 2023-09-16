@@ -1,0 +1,31 @@
+/* div{
+    height: 200px;
+    width: 200px;
+    background-color: yellow;
+    border: 2px black solid;
+    margin: 5px;
+    display: inline-block; */
+
+}
+
+#thrd{
+    /* display: none; */
+}
+
+h1{
+    border: 2px solid black;
+    width: 50%;
+}
+
+#inner{
+    height: 100px;
+    width: 100px;
+    margin: 10%;
+    background-color: red;
+}
+#outer{
+    height: 400px;
+    width: 400px;
+    background-color: pink;
+    margin: 50px;
+}
