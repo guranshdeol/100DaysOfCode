@@ -1,0 +1,8 @@
+ div{
+    background-color: yellow;
+    border: 2px solid black;
+    height: 100px;
+    width: 100px;
+    outline: 50px solid red;
+    outline-offset: 50px;
+ }
