@@ -1,0 +1,17 @@
+button{
+    font-size: 80px;
+    border-radius: 15px;
+    border: 5px solid green;
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+section{
+    font-size: 25px;
+}
+
+div{
+    /* font-size: 2em; */
+    /* Rem used to solve this snowball problem. */
+    font-size: 3rem;
+}
