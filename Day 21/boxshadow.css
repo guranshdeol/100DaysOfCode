@@ -1,0 +1,8 @@
+div{
+    height: 50px;
+    width: 200px;
+    text-align: center;
+    background-color: pink;
+    margin: 10px auto;
+    box-shadow: 2px 2px 8px black;
+}
