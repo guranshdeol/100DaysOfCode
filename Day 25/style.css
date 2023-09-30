@@ -29,3 +29,10 @@ div{
     top: 100px;
     left: 100px;
 }
+
+#fixed{
+    background-color: silver;
+    position: fixed;
+    top: 100px;
+    left: 100px;
+}
