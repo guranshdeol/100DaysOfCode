@@ -1,0 +1,23 @@
+#outer{
+    border: 3px solid black;
+    height: 500px;
+    width: 500px;
+
+
+}
+
+#circle{
+    background-color: yellow;
+    height: 450px;
+    width: 450px;
+    margin: 25px 25px 25px 25px;
+    border-radius: 50%;
+    border: 2px solid black;
+
+}
+
+#e1{
+    background-color: black;
+    border-radius: 50%;
+    hei
+}
