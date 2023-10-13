@@ -28,3 +28,32 @@ This is *text in italic.*
 - [x] checked item 1
 - [ ] unchecked item 2
 - [ ] unchecked item 3
+
+- item1
+  - item 1a
+  - item 1b
+  - item 1c
+- item 2
+- item 3
+
+| Heading 1 | Heading 2 | Heading 3 |
+| :-- | :--: | --: |
+| R1 C1 | r1 c2| r1 c3 |
+| R1 C1 | r1 c2| r1 c3 |
+| R1 C1 | r1 c2| r1 c3 |
+
+This is inline code `const name = inline code;` wiyh more text.
+
+code block:
+ ```
+ const first name= "Guransh";
+ const second name = "Deol";
+
+ ```
+
+  ```ts 
+//   this ts means syntax and styling of typescript. we can add the samefor python java and other coding languages aswell.
+ const first name= "Guransh";
+ const second name = "Deol";
+
+ ```
