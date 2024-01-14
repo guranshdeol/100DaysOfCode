@@ -2,7 +2,6 @@ class Solution {
   public boolean closeStrings(String word1, String word2) {
     if (word1.length() != word2.length())
       return false;
-
     Map<Character, Integer> count1 = new HashMap<>();
     Map<Character, Integer> count2 = new HashMap<>();
 
