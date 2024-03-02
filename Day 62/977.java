@@ -1,22 +1,15 @@
-LinkedIn Post:
----
-🚀 Day 62 of #100DaysOfCode Challenge 🚀
+class Solution {
+  public int[] sortedSquares(int[] nums) {
+    final int n = nums.length;
+    int[] ans = new int[n];
+    int i = n - 1;
 
-🔥 Today was a productive day! Solved another daily problem on LeetCode and wrapped up the Introduction to Cloud Computing course on Infospringboard. 🤓💻
+    for (int l = 0, r = n - 1; l <= r;)
+      if (Math.abs(nums[l]) > Math.abs(nums[r]))
+        ans[i--] = nums[l] * nums[l++];
+      else
+        ans[i--] = nums[r] * nums[r--];
 
-🔗 GitHub Repo: [bit.ly/100dcode](https://bit.ly/100dcode)
-🔗 Other Socials: [bio.link/guranshdeol](https://bio.link/guranshdeol)
-
-#buildinpublic #learninpublic #100daysofcode #leetcode #cloudcomputing #Infospringboard
-
-Excited to keep pushing my coding and cloud skills forward! 💪✨
----
-
-Twitter Post:
----
-Day 62 of #100DaysOfCode: Solved a LeetCode daily problem & completed the Introduction to Cloud Computing course on Infospringboard. Productive day! 💻🌟
-
-GitHub Repo: bit.ly/100dcode
-Other Socials: bio.link/guranshdeol
-
-#buildinpublic #learninpublic #100daysofcode #leetcode #cloudcomputing #Infospringboard
+    return ans;
+  }
+}
